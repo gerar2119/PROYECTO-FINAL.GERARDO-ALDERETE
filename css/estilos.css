@@ -5,7 +5,6 @@
   background-image: linear-gradient(to left, rgb(252, 250, 250) , rgb(189, 189, 184));
 }
 
-
 .bg-central{background-image: linear-gradient(to left, white, red,white)}
 
 
@@ -31,8 +30,9 @@ h1 {
       margin-left: 0%;
       width: 100%;
     }
-  }
-  p {
+  } 
+  
+p {
     animation-duration: 3s;
     animation-name: texto;
   }
@@ -46,7 +46,7 @@ h1 {
     
 /*MEDIA QUERIES*/
 
-/*desk*/
+/*DESKTOP*/
 @media (max-width: 1200px)
 {
   .bg-navpropio{
@@ -68,10 +68,10 @@ h1 {
   
 }
 
-.bg-texto{}
+.bg-texto{color: rgba(8, 8, 8, 0.863);}
 
 
-/*tablet*/
+/*TABLET*/
 
 @media (max-width: 992px)
 {
@@ -80,12 +80,11 @@ h1 {
   }
   
   
-  .bg-central{}
   
   
+   h1{text-shadow: 5px 0 black, 0 2px black, 3px 0 black, 0 -1px black}
   
-  h1{text-shadow: 5px 0 black, 0 2px black, 3px 0 black, 0 -1px black}
-  
+   .bg-texto{color: rgba(253, 252, 252, 0.863);}
 }
 
 /*MOBILE*/
@@ -103,7 +102,9 @@ h1 {
   
   h1{text-shadow: 2px 0 black, 0 2px black, 3px 0 black, 0 -1px black}
   
+  .bg-texto{color:orangered;}
 }
+
 
     
         
